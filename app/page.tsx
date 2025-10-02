@@ -2,31 +2,6 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-<<<<<<< HEAD
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started {" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-=======
-        // background tetap fullpage (bisa diganti), card di tengah ber-border seperti screenshot
     <div className="font-sans min-h-screen p-8 sm:p-20 flex items-center justify-center bg-[#d2dbeb]">
       {/* Card utama dengan border mirip screenshot */}
       <div className="w-full max-w-[500px] bg-white border-2 border-[#0385a] rounded-xl p-10 shadow-md">
@@ -39,9 +14,6 @@ export default function Home() {
             height={38}
             priority
           />
-996a607201a2d958b068fb138f96c529df3cc176
->>>>>>> 4cd582c19d26679afa8edf7e0ab35fc26117f4a5
-
           <div className="w-full text-center sm:text-left">
             <h1 className="text-[#0385a] font-bold text-2xl mb-3">
               Kelompok Kecebur Laut
